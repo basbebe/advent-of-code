@@ -55,6 +55,7 @@
               name = "rust-shell";
               packages = with pkgs; [
                 rust-toolchain
+                cargo-nextest
                 config.treefmt.build.wrapper
               ];
             };
